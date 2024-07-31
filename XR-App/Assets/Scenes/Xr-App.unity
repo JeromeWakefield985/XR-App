@@ -217,6 +217,7 @@ GameObject:
   - component: {fileID: 276031429}
   - component: {fileID: 276031428}
   - component: {fileID: 276031433}
+  - component: {fileID: 276031434}
   m_Layer: 0
   m_Name: Left Controller
   m_TagString: Untagged
@@ -893,6 +894,27 @@ MonoBehaviour:
   handPrefab: {fileID: 5754409280742338149, guid: c9d52e3f919de3f4b8ec732df6683628,
     type: 3}
   ourControllerCharacteristics: 320
+--- !u!135 &276031434
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 276031426}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.5025
+  m_Center: {x: 0, y: 0, z: 0.5}
 --- !u!1 &383409972
 GameObject:
   m_ObjectHideFlags: 0
