@@ -1070,7 +1070,7 @@ PrefabInstance:
     - target: {fileID: 5652496370793393805, guid: 07962c2150a068b46964b971c4c79b5f,
         type: 3}
       propertyPath: playOnAwake
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5652496370793393805, guid: 07962c2150a068b46964b971c4c79b5f,
         type: 3}
@@ -1090,7 +1090,7 @@ PrefabInstance:
     - target: {fileID: 6500471774957171845, guid: 07962c2150a068b46964b971c4c79b5f,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.19
       objectReference: {fileID: 0}
     - target: {fileID: 6500471774957171845, guid: 07962c2150a068b46964b971c4c79b5f,
         type: 3}
@@ -1136,7 +1136,12 @@ PrefabInstance:
         type: 3}
       propertyPath: bottleTop
       value: 
-      objectReference: {fileID: 1673162808}
+      objectReference: {fileID: 1002655003}
+    - target: {fileID: 8892671531807448832, guid: 07962c2150a068b46964b971c4c79b5f,
+        type: 3}
+      propertyPath: isPouring
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8892671531807448832, guid: 07962c2150a068b46964b971c4c79b5f,
         type: 3}
       propertyPath: wineBottle
@@ -2102,6 +2107,12 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1144837639}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1002655003 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3173053245447438142, guid: 07962c2150a068b46964b971c4c79b5f,
+    type: 3}
+  m_PrefabInstance: {fileID: 459262925}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1135360234
 GameObject:
   m_ObjectHideFlags: 0
@@ -3288,12 +3299,6 @@ MonoBehaviour:
     m_Reference: {fileID: -6447266317303757838, guid: c348712bda248c246b8c49b3db54643f,
       type: 3}
   m_ButtonPressPoint: 0.5
---- !u!4 &1673162808 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4852707441147837536, guid: 07962c2150a068b46964b971c4c79b5f,
-    type: 3}
-  m_PrefabInstance: {fileID: 459262925}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1832615536
 GameObject:
   m_ObjectHideFlags: 0

@@ -10,8 +10,8 @@ public class WinePour : MonoBehaviour
     public Transform wineBottle;
     public Transform bottleTop;
 
-    private bool isPouring = false;
-    private bool pourCheck;
+    public bool isPouring = true;
+    public bool pourCheck;
 
     public float topBottle;
     public float midBottle;
@@ -34,6 +34,10 @@ public class WinePour : MonoBehaviour
         {
            isPouring = pourCheck;
            wineStream.SetActive(isPouring);
+        }
+        else
+        {
+            
         }
        
 
